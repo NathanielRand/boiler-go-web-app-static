@@ -1,0 +1,33 @@
+{{define "yield"}}
+    <div class="container">
+        <img id="navbar-logo" src="/assets/images/chest-2.png" width="auto" height="auto">
+        <h1 class="title is-primary">WebChest</h1>        
+
+      <p class="subtitle">
+        Web Tool Treasures <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+      </p>
+
+      <div class="field">
+        <div class="control">
+          <input class="input" type="text" placeholder="Search any WebChest tool...">
+        </div>
+      </div>
+
+      <h3>IP Address: {{.IPAddress}}</h3>
+
+      <div class="field">
+        <p class="control">
+          <span class="select">
+            <select>
+              <option>Select dropdown</option>
+            </select>
+          </span>
+        </p>
+      </div>
+
+      <div class="buttons">
+        <a class="button is-primary">Primary</a>
+        <a class="button is-link">Link</a>
+      </div>
+    </div>
+{{end}}

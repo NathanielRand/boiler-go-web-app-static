@@ -1,0 +1,20 @@
+{
+  "name": "static-web-app-joncalhoun",
+  "version": "1.0.0",
+  "description": "static web application built in go",
+  "main": "assets/scss/styles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url assets/scss/styles.scss assets/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "node-sass": "^5.0.0"
+  }
+}
+
+
